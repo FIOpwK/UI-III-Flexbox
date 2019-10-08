@@ -11,10 +11,11 @@
 
 
 	height: 396px;
-	display: inline-block;
+	display: flex;
 	width: 100%;
 	max-width: 900px;
-	position: relative;
+	flex-direction: row-reverse;
+	align-items: center;
 	padding-top: 5%;
 	text-align: center;
 	margin: 50px auto 50px auto;
@@ -78,13 +79,14 @@ h1 {
 } */
 
 .top-img {
-	display: inline-block;
-	position: absolute;
+	display: flex;
+	justify-content: center;
 	/* border: 2px solid red; */
 	width: 50%;
 	max-width: 450px;
 	height: 355px;
 	margin-left: 5%;
+	border: 1px solid;
 
 
 }
@@ -95,11 +97,11 @@ h1 {
 	max-width: 450px;
 }
 
-.middle-img {
+.middle-img, .services-header-img {
 	padding: 1%;
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
+	display: flex;
 }
 
 
@@ -177,6 +179,30 @@ p {
 	position: absolute;
 	padding-left: 20px;
 
+}
+
+#android-services {
+	background-color:#f3f3f3;
+}
+
+#ios-dev {
+	background-color: #f3f3f3;
+}
+
+#web-dev {
+	background-color: #f3f3f3;
+}
+
+#dm-services {
+	background-color: #f3f3f3;
+}
+
+#ux-ui {
+	background-color: #f3f3f3;
+}
+
+#design {
+	background-color: #f3f3f3;
 }
 
 #product {
