@@ -20,8 +20,12 @@
 	text-align: center;
 	margin: 50px auto 50px auto;
 	/* border: 2px solid gray; */
+}
 
-
+.courses {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 button {
@@ -33,6 +37,13 @@ button {
 	width: 44%;
 	max-width: 447px;
 	background-color: #f3f3f3;
+}
+
+.courses button {
+	height: 33px;
+	width: 34%;
+	border-radius: 5px;
+	background-color: #f5fff5;
 }
 
 button:hover {
@@ -49,14 +60,14 @@ button:hover {
 	border-radius: 80px;
 	margin: 0 auto;
 	max-width: 900px;
-
+	display: flex;
 	z-index: 1;
 
 }
 
-.logo {
+#nav-bar .logo {
+
 	border: 1px solid red;
-	align-self: auto;
 	right: 0px;
 	padding: 1%;
 }
@@ -97,13 +108,20 @@ h1 {
 	max-width: 450px;
 }
 
-.middle-img, .services-header-img {
+.middle-img {
 	padding: 1%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
 }
 
+.services-header-img {
+	padding: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 13.33%;
+	display: flex;
+}
 
 
 .navigation {
@@ -130,7 +148,7 @@ a:hover {
 
 nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 
