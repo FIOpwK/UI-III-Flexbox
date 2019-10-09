@@ -24,8 +24,10 @@
 
 .courses {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+	flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid;
+
 }
 
 button {
@@ -41,7 +43,7 @@ button {
 
 .courses button {
 	height: 33px;
-	width: 34%;
+	width: 104px;
 	border-radius: 5px;
 	background-color: #f5fff5;
 }
@@ -75,7 +77,6 @@ button:hover {
 
 h1 {
 	font-size: 88px;
-	display: block;
 	width: 88%;
 	padding: 10% 0% 0% 10%;
 	max-width: 450px;
@@ -86,7 +87,7 @@ h1 {
 	padding: 1%;
 	width: 20%;
 	position: relative;
-	display: inline-block;
+	display: flex;
 } */
 
 .top-img {
@@ -204,7 +205,8 @@ p {
 }
 
 #android-services {
-	background-color:#f3f3f3;
+	background-color: #f3f3f3;
+
 }
 
 #ios-dev {
@@ -213,18 +215,23 @@ p {
 
 #web-dev {
 	background-color: #f3f3f3;
+
 }
 
 #dm-services {
 	background-color: #f3f3f3;
+
+
 }
 
 #ux-ui {
 	background-color: #f3f3f3;
+
 }
 
 #design {
 	background-color: #f3f3f3;
+
 }
 
 #product {
@@ -246,18 +253,14 @@ p {
 }
 
 .contact {
-
 	margin: 1% auto ;
-
 	display: flex;
 	position: absolute;
 	flex-direction: column;
-
 	padding-bottom: 40px;
 	width: 100%;
 	max-width: 900px;
 	line-height: 2px;
-
 
 }
 
