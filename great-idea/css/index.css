@@ -7,9 +7,6 @@
 
 .get-started {
 	/* border: 1px solid; */
-
-
-
 	height: 396px;
 	display: flex;
 	width: 100%;
@@ -26,7 +23,7 @@
 	display: flex;
 	flex-wrap: wrap;
     /*justify-content: center;*/
-    border: 1px solid;
+    /*border: 1px solid;*/
     /*position: absolute;*/
 
 }
@@ -69,7 +66,6 @@ button:hover {
 }
 
 #nav-bar .logo {
-
 	border: 1px solid red;
 	right: 0px;
 	padding: 1%;
@@ -145,7 +141,6 @@ a:hover {
 	background-color: greenyellow;
 	transition: all 0.9s ease-in-out;
 	border-radius: 40px;
-
 }
 
 nav {
@@ -220,32 +215,29 @@ p {
 	flex-direction: column;
 }
 
-#android-services {
+#android-services, #ios-dev, #web-dev, #dm-services, #ux-ui, #design {
 	background-color: #f3f3f3;
-
+	border: 1px solid;
 }
 
 #ios-dev {
-	background-color: #f3f3f3;
+	/*background-color: #f3f3f3;*/
 }
 
 #web-dev {
-	background-color: #f3f3f3;
-
+	/*background-color: #f3f3f3;*/
 }
 
 #dm-services {
-	background-color: #f3f3f3;
-
-
+	/*background-color: #f3f3f3;*/
 }
 
 #ux-ui {
-	background-color: #f3f3f3;
+	/*background-color: #f3f3f3;*/
 }
 
 #design {
-	background-color: #f3f3f3;
+	/*background-color: #f3f3f3;*/
 }
 
 #product {
