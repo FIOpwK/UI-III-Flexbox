@@ -29,6 +29,8 @@
 	/*box-sizing: border-box;*/
 	justify-content: space-around;
 	border-top: 1px solid;
+	width: 100%;
+	max-width: 900px;
 }
 
 button {
@@ -245,25 +247,25 @@ p {
 	width: 42%;
 }
 
-#ios-dev {
-	/*background-color: #f3f3f3;*/
-}
+/*#ios-dev {*/
+/*	!*background-color: #f3f3f3;*!*/
+/*}*/
 
-#web-dev {
-	/*background-color: #f3f3f3;*/
-}
+/*#web-dev {*/
+/*	!*background-color: #f3f3f3;*!*/
+/*}*/
 
-#dm-services {
-	/*background-color: #f3f3f3;*/
-}
+/*#dm-services {*/
+/*	!*background-color: #f3f3f3;*!*/
+/*}*/
 
-#ux-ui {
-	/*background-color: #f3f3f3;*/
-}
+/*#ux-ui {*/
+/*	!*background-color: #f3f3f3;*!*/
+/*}*/
 
-#design {
-	/*background-color: #f3f3f3;*/
-}
+/*#design {*/
+/*	!*background-color: #f3f3f3;*!*/
+/*}*/
 
 #product {
 	display: flex;
