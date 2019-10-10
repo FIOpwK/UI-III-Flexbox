@@ -25,8 +25,9 @@
 .courses {
 	display: flex;
 	flex-wrap: wrap;
-    width: 100%;
+    /*justify-content: center;*/
     border: 1px solid;
+    /*position: absolute;*/
 
 }
 
@@ -187,6 +188,17 @@ p {
 	flex-direction: column;
 }
 
+#about-services h3 {
+	margin: 0 auto;
+
+}
+
+#about-services {
+	display: flex;
+	border-top: 1px solid;
+	height: 400px;
+}
+
 .bottom-content {
 	position: relative;
 	height: 150px;
@@ -195,13 +207,17 @@ p {
 	border-bottom: 1px solid;
 }
 
+.services-info-img {
+	height: 300px;
+	margin-top: 20px;
+}
+
 #services {
 	display: flex;
 	width: 33.33%;
 	position: absolute;
 	padding-left: 20px;
 	flex-direction: column;
-
 }
 
 #android-services {
@@ -226,12 +242,10 @@ p {
 
 #ux-ui {
 	background-color: #f3f3f3;
-
 }
 
 #design {
 	background-color: #f3f3f3;
-
 }
 
 #product {
@@ -261,11 +275,14 @@ p {
 	width: 100%;
 	max-width: 900px;
 	line-height: 2px;
-
 }
 
 
 #copy {
 	text-align: center;
 	font-family: 'Indie Flower', cursive;
+}
+
+footer {
+	text-align: center;
 }
