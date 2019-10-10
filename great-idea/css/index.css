@@ -64,6 +64,7 @@ button:hover {
 	margin: 0 auto;
 	max-width: 900px;
 	display: flex;
+	z-index: 3;
 }
 
 #nav-bar .logo {
