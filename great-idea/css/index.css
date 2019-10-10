@@ -192,6 +192,11 @@ p {
 
 }
 
+#about-services ul {
+	margin-left: -25px;
+	list-style-type: square;
+}
+
 #about-services {
 	display: flex;
 	border-top: 1px solid;
