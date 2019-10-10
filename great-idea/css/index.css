@@ -3,6 +3,7 @@
 	margin: 0 auto;
 	max-width: 900px;
 	padding: 10px;
+	/*box-sizing: border-box;*/
 }
 
 .get-started {
@@ -25,7 +26,9 @@
     /*justify-content: center;*/
     /*border: 1px solid;*/
     /*position: absolute;*/
-
+	/*box-sizing: border-box;*/
+	justify-content: space-around;
+	border-top: 1px solid;
 }
 
 button {
@@ -79,6 +82,11 @@ h1 {
 	width: 88%;
 	padding: 10% 0% 0% 10%;
 	max-width: 450px;
+}
+
+div.facts {
+	margin-right: 56px;
+	margin-left: -14px;
 }
 
 /* button {
@@ -192,6 +200,10 @@ p {
 
 }
 
+#about-services p {
+
+}
+
 #about-services ul {
 	margin-left: -25px;
 	list-style-type: square;
@@ -199,7 +211,7 @@ p {
 
 #about-services {
 	display: flex;
-	border-top: 1px solid;
+	border-top: 2px solid;
 	height: 400px;
 }
 
@@ -213,7 +225,8 @@ p {
 
 .services-info-img {
 	height: 300px;
-	margin-top: 20px;
+	margin-top: 40px;
+	margin-left: 20px;
 }
 
 #services {
@@ -228,6 +241,7 @@ p {
 #android-services, #ios-dev, #web-dev, #dm-services, #ux-ui, #design {
 	background-color: #f3f3f3;
 	border: 1px solid;
+	width: 42%;
 }
 
 #ios-dev {
