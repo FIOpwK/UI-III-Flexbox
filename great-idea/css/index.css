@@ -1,7 +1,16 @@
+/*Media Queries*/
+/*@media (max-width: 400px) {*/
 
+/*	body {*/
+/*		border: 26px dashed darkcyan;*/
+/*	}*/
+
+/*} */
+/*<!--End Of Queries-->*/
 .container {
 	margin: 0 auto;
 	max-width: 900px;
+	width: 100%;
 	padding: 10px;
 	/*box-sizing: border-box;*/
 }
@@ -61,8 +70,8 @@ button:hover {
 	position: fixed;
 	top: 0;
 	width: 90%;
-	background-color: skyblue;
-	border-radius: 80px;
+	background-color: #00001a;
+	border-radius: 8px;
 	margin: 0 auto;
 	max-width: 900px;
 	display: flex;
@@ -73,6 +82,7 @@ button:hover {
 	/*border: 1px solid red;*/
 	right: 0px;
 	padding: 1%;
+	background-color: #666699;
 }
 
 #nav-bar a {
@@ -203,9 +213,9 @@ p {
 
 }
 
-#about-services p {
+/*#about-services p {*/
 
-}
+/*}*/
 
 #about-services ul {
 	margin-left: -25px;
