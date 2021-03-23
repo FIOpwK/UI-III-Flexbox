@@ -1,15 +1,22 @@
+/*Media Queries*/
+/*@media (max-width: 400px) {*/
 
+/*	body {*/
+/*		border: 26px dashed darkcyan;*/
+/*	}*/
+
+/*} */
+/*<!--End Of Queries-->*/
 .container {
 	margin: 0 auto;
 	max-width: 900px;
+	width: 100%;
 	padding: 10px;
+	/*box-sizing: border-box;*/
 }
 
 .get-started {
 	/* border: 1px solid; */
-
-
-
 	height: 396px;
 	display: flex;
 	width: 100%;
@@ -25,9 +32,14 @@
 .courses {
 	display: flex;
 	flex-wrap: wrap;
-    width: 100%;
-    border: 1px solid;
-
+    /*justify-content: center;*/
+    /*border: 1px solid;*/
+    /*position: absolute;*/
+	/*box-sizing: border-box;*/
+	justify-content: space-around;
+	border-top: 1px solid;
+	width: 100%;
+	max-width: 900px;
 }
 
 button {
@@ -58,20 +70,23 @@ button:hover {
 	position: fixed;
 	top: 0;
 	width: 90%;
-	background-color: skyblue;
-	border-radius: 80px;
+	background-color: #00001a;
+	border-radius: 8px;
 	margin: 0 auto;
 	max-width: 900px;
 	display: flex;
-	z-index: 1;
-
+	z-index: 3;
 }
 
 #nav-bar .logo {
-
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	right: 0px;
 	padding: 1%;
+	background-color: #666699;
+}
+
+#nav-bar a {
+	text-decoration: none;
 }
 
 
@@ -80,6 +95,11 @@ h1 {
 	width: 88%;
 	padding: 10% 0% 0% 10%;
 	max-width: 450px;
+}
+
+div.facts {
+	margin-right: 56px;
+	margin-left: -14px;
 }
 
 /* button {
@@ -98,7 +118,7 @@ h1 {
 	max-width: 450px;
 	height: 355px;
 	margin-left: 5%;
-	border: 1px solid;
+	/*border: 1px solid;*/
 
 
 }
@@ -107,6 +127,7 @@ h1 {
 	/* border: 2px solid red; */
 	width: 50%;
 	max-width: 450px;
+	margin-bottom: 100px;
 }
 
 .middle-img {
@@ -114,6 +135,7 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
+	padding-top: 4%;
 }
 
 .services-header-img {
@@ -144,7 +166,6 @@ a:hover {
 	background-color: greenyellow;
 	transition: all 0.9s ease-in-out;
 	border-radius: 40px;
-
 }
 
 nav {
@@ -187,12 +208,38 @@ p {
 	flex-direction: column;
 }
 
+#about-services h3 {
+	margin: 0 auto;
+
+}
+
+/*#about-services p {*/
+
+/*}*/
+
+#about-services ul {
+	margin-left: -25px;
+	list-style-type: square;
+}
+
+#about-services {
+	display: flex;
+	border-top: 2px solid;
+	height: 400px;
+}
+
 .bottom-content {
 	position: relative;
 	height: 150px;
 	margin-top: 25px;
-	padding-bottom: 20%;
+	padding-bottom: 10%;
 	border-bottom: 1px solid;
+}
+
+.services-info-img {
+	height: 300px;
+	margin-top: 40px;
+	margin-left: 20px;
 }
 
 #services {
@@ -201,38 +248,34 @@ p {
 	position: absolute;
 	padding-left: 20px;
 	flex-direction: column;
-
+	flex-wrap: wrap;
 }
 
-#android-services {
+#android-services, #ios-dev, #web-dev, #dm-services, #ux-ui, #design {
 	background-color: #f3f3f3;
-
+	border: 1px solid;
+	width: 42%;
 }
 
-#ios-dev {
-	background-color: #f3f3f3;
-}
+/*#ios-dev {*/
+/*	!*background-color: #f3f3f3;*!*/
+/*}*/
 
-#web-dev {
-	background-color: #f3f3f3;
+/*#web-dev {*/
+/*	!*background-color: #f3f3f3;*!*/
+/*}*/
 
-}
+/*#dm-services {*/
+/*	!*background-color: #f3f3f3;*!*/
+/*}*/
 
-#dm-services {
-	background-color: #f3f3f3;
+/*#ux-ui {*/
+/*	!*background-color: #f3f3f3;*!*/
+/*}*/
 
-
-}
-
-#ux-ui {
-	background-color: #f3f3f3;
-
-}
-
-#design {
-	background-color: #f3f3f3;
-
-}
+/*#design {*/
+/*	!*background-color: #f3f3f3;*!*/
+/*}*/
 
 #product {
 	display: flex;
@@ -261,11 +304,14 @@ p {
 	width: 100%;
 	max-width: 900px;
 	line-height: 2px;
-
 }
 
 
 #copy {
 	text-align: center;
 	font-family: 'Indie Flower', cursive;
+}
+
+footer {
+	text-align: center;
 }
